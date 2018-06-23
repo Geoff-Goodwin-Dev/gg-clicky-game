@@ -7,8 +7,9 @@ const Tile = props => (
       <img alt={props.name} src={props.image} />
     </div>
     <div className="content">
-      {props.name} <br />
-      {(props.clicked) ? "Clicked" : "Not Clicked"}
+      {props.name}
+      {/*<br />*/}
+      {/*{(props.clicked) ? "Clicked" : "Not Clicked"}*/}
     </div>
   </div>
 );

@@ -74,7 +74,7 @@ class App extends Component {
                 key={character.id}
                 name={character.name}
                 image={character.image}
-                clicked={character.clicked}
+                // clicked={character.clicked}
               />
             ))}
           </div>
