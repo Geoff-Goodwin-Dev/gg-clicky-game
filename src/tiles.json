@@ -2,46 +2,55 @@
   {
     "id": 1,
     "name": "Fry",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Philip_Fry.png/220px-Philip_Fry.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Philip_Fry.png/220px-Philip_Fry.png",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Bender",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Bender_Rodriguez.png/220px-Bender_Rodriguez.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Bender_Rodriguez.png/220px-Bender_Rodriguez.png",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Leela",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Turanga_Leela.png/150px-Turanga_Leela.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Turanga_Leela.png/150px-Turanga_Leela.png",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Zoidberg",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Dr_John_Zoidberg.png/200px-Dr_John_Zoidberg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Dr_John_Zoidberg.png/200px-Dr_John_Zoidberg.png",
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Amy",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/FuturamaAmyWong.png/140px-FuturamaAmyWong.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/FuturamaAmyWong.png/140px-FuturamaAmyWong.png",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Hermes",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hermes_Conrad_promo_pic.png/190px-Hermes_Conrad_promo_pic.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Hermes_Conrad_promo_pic.png/190px-Hermes_Conrad_promo_pic.png",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "Nibbler",
-    "image": "https://static.simpsonswiki.com/images/thumb/1/1f/Nibbler.png/250px-Nibbler.png"
+    "image": "https://static.simpsonswiki.com/images/thumb/1/1f/Nibbler.png/250px-Nibbler.png",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "Scruffy",
-    "image": "https://static.simpsonswiki.com/images/thumb/1/10/Scruffy.png/250px-Scruffy.png"
+    "image": "https://static.simpsonswiki.com/images/thumb/1/10/Scruffy.png/250px-Scruffy.png",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "Farnsworth",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/FuturamaProfessorFarnsworth.png/175px-FuturamaProfessorFarnsworth.png"
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/FuturamaProfessorFarnsworth.png/175px-FuturamaProfessorFarnsworth.png",
+    "clicked": false
   }
 ]

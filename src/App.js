@@ -8,6 +8,14 @@ class App extends Component {
     characters,
   };
 
+  clickedTile = id => {
+    let charactersPreClick = this.state.characters;
+    let clickedFriend = charactersPreClick.find((o, i) => {
+      return (o.id === id) ? charactersPreClick[i].clicked = true : console.log("couldn't find it");
+    });
+    console.log(clickedFriend);
+    this.setState({ characters });
+  };
 
   render() {
     return (
@@ -18,11 +26,12 @@ class App extends Component {
           <div className="tileHolder">
             {this.state.characters.map(character => (
               <Tile
-                // removeFriend={this.removeFriend}
+                clickedTile={this.clickedTile}
                 id={character.id}
                 key={character.id}
                 name={character.name}
                 image={character.image}
+                clicked={character.clicked}
               />
             ))}
             {console.log(this.state.characters)}
