@@ -1,0 +1,23 @@
+.tile {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  background-color: #C0FFEE;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.img-container > img {
+  height: 100px;
+}
+
+.content {
+  text-align: center;
+}
