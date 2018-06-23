@@ -1,0 +1,9 @@
+{
+  "short_name": "clicky",
+  "name": "gg-clicky-game",
+  "icons": [],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
