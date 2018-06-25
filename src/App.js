@@ -62,9 +62,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h2>Clicky Game</h2>
-          <h3>Score: {this.state.score}</h3>
-          <h3>Wins: {this.state.wins}</h3>
-          <h3>Losses: {this.state.losses}</h3>
+          <div className="scoresHolder">
+            <h3>Score: {this.state.score}</h3>
+            <h3>Wins: {this.state.wins}</h3>
+            <h3>Losses: {this.state.losses}</h3>
+          </div>
           <hr />
           <div className="tileHolder">
             {this.state.characters.map(character => (
